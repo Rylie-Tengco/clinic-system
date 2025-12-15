@@ -1,0 +1,48 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "total": 1,
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:pra-mj70auip-mtb4bf",
+      "resource": {
+        "resourceType": "Practitioner",
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Chen",
+            "given": [
+              "Michael"
+            ]
+          }
+        ],
+        "gender": "male",
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "555-987-6543",
+            "use": "work"
+          },
+          {
+            "system": "email",
+            "value": "dr.chen@clinic.com",
+            "use": "work"
+          }
+        ],
+        "qualification": [
+          {
+            "code": {
+              "text": "Family Medicine"
+            }
+          }
+        ],
+        "id": "pra-mj70auip-mtb4bf",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2025-12-15T10:24:03.841Z"
+        }
+      }
+    }
+  ]
+}

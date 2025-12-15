@@ -1,0 +1,51 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "total": 1,
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:enc-mj70b3g2-iq5on4",
+      "resource": {
+        "resourceType": "Encounter",
+        "status": "finished",
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        },
+        "type": [
+          {
+            "text": "wellness visit"
+          }
+        ],
+        "subject": {
+          "reference": "Patient/pat-mj70aq1b-m9f7lf",
+          "type": "Patient",
+          "display": "Sarah Johnson"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "Practitioner/pra-mj70auip-mtb4bf",
+              "type": "Practitioner",
+              "display": "Michael Chen"
+            }
+          }
+        ],
+        "reasonCode": [
+          {
+            "text": "Annual wellness examination"
+          }
+        ],
+        "period": {
+          "end": "2025-12-15T10:30:00Z"
+        },
+        "id": "enc-mj70b3g2-iq5on4",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2025-12-15T10:24:47.150Z"
+        }
+      }
+    }
+  ]
+}

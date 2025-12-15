@@ -1,0 +1,40 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "total": 1,
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:med-mj70bn09-45zwv7",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "status": "active",
+        "intent": "order",
+        "subject": {
+          "reference": "Patient/pat-mj70aq1b-m9f7lf",
+          "type": "Patient",
+          "display": "Sarah Johnson"
+        },
+        "priority": "routine",
+        "medicationCodeableConcept": {
+          "text": "Atorvastatin 10mg"
+        },
+        "requester": {
+          "reference": "Practitioner/pra-mj70auip-mtb4bf",
+          "type": "Practitioner",
+          "display": "Michael Chen"
+        },
+        "dosageInstruction": [
+          {
+            "text": "Take 1 tablet by mouth once daily in the evening"
+          }
+        ],
+        "authoredOn": "2025-12-15T10:24:40.748Z",
+        "id": "med-mj70bn09-45zwv7",
+        "meta": {
+          "versionId": "1",
+          "lastUpdated": "2025-12-15T10:24:40.762Z"
+        }
+      }
+    }
+  ]
+}

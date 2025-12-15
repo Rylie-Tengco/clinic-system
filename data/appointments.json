@@ -1,0 +1,45 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "total": 1,
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:app-mj70aywm-g1lak4",
+      "resource": {
+        "resourceType": "Appointment",
+        "status": "fulfilled",
+        "participant": [
+          {
+            "actor": {
+              "reference": "Patient/pat-mj70aq1b-m9f7lf",
+              "type": "Patient",
+              "display": "Sarah Johnson"
+            },
+            "status": "accepted"
+          },
+          {
+            "actor": {
+              "reference": "Practitioner/pra-mj70auip-mtb4bf",
+              "type": "Practitioner",
+              "display": "Michael Chen"
+            },
+            "status": "accepted"
+          }
+        ],
+        "description": "Annual wellness checkup",
+        "start": "2024-12-20T10:00:00Z",
+        "end": "2024-12-20T10:30:00Z",
+        "serviceType": [
+          {
+            "text": "General Consultation"
+          }
+        ],
+        "id": "app-mj70aywm-g1lak4",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2025-12-15T10:24:51.728Z"
+        }
+      }
+    }
+  ]
+}
